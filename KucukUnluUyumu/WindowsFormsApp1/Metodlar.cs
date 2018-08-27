@@ -25,11 +25,11 @@ namespace WindowsFormsApp1
             {
                 if (KucukUnluUyumu(kelime))
                 {
-                    sonuc += "  '" + kelime + "'si Küçük ünlü uyumuna uyuyor  ,";
+                    sonuc += "  '" + kelime + "' UYUYOR  ,";
                 }
                 else
                 {
-                    sonuc += "  '" + kelime + "'si Küçük ünlü uyumuna uymuyor  ,";
+                    sonuc += "  '" + kelime + "' UYMUYOR  ,";
                 }
             }
             sonuc = sonuc.Remove(sonuc.Length - 1, 1);
